@@ -141,7 +141,7 @@
 	      	<div class="overlay"></div>
 	         <div class="container">
 	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/last.png);">
+	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/output_grabcut.png);">
 	          	 <div class="overlay"></div>
 	          	</div>
 		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
@@ -159,11 +159,13 @@
 
 						// Create an array of typing text
 						const typingTexts = [
-						'M.Tech  ',
-						'CSE  ',
-						'Student   ',
-						'@IIIT',
-						'Delhi'
+						'M.Tech CSE Student',
+						'@IIIT Delhi',
+						'Frontend Developer',
+						'Machine Learning Enthusiast',
+						'Problem Solver',
+						'Creative Coder',
+						'Tech Explorer'
 						];
 
 						// Create a function to display the typing animation for a given text
@@ -172,14 +174,14 @@
 						for (let i = 0; i < text.length; i++) {
 							setTimeout(() => {
 							typingAnimationElement.textContent += text[i];
-							}, i * 200); // Increase the delay to slow down the typing animation
+							}, i * 300); // Increase the delay to slow down the typing animation
 						}
 
 						// Once the animation is complete, reset the text and start over
 						setTimeout(() => {
 							typingAnimationElement.textContent = '';
 							playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
-						}, text.length * 200);
+						}, text.length * 300);
 						}
 
 						// Start the typing animation loop
@@ -221,40 +223,64 @@
 									<div class="col-sm-6 col-md-7">
 									  <div class="about-info">
 										<p><span class="title-s">Name: </span> <span>Shreeram Kumar Singh</span></p>
-										<p><span class="title-s">Address: </span> <span>Delhi, India</span></p>
+										<p><span class="title-s">Address: </span> <span>Darbhanga, Bihar, India, 847201</span></p>
 									  </div>
 									</div>
 								  </div>
 
 								<div class="skill-mf">
 									<p class="title-s">Skills</p>
-									<span>CPP</span> <span class="pull-right">95%</span>
+									<span>CPP</span> <span class="pull-right">98%</span>
 									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0"
+										<div class="progress-bar" role="progressbar" style="width: 98%;" aria-valuenow="98" aria-valuemin="0"
 											aria-valuemax="100"></div>
 									</div>
 									
-									<span>PYTHON</span> <span class="pull-right">75%</span>
+									<span>PYTHON</span> <span class="pull-right">90%</span>
 									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
+										<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
 											aria-valuemax="100"></div>
 									</div>
 									
-									<span>javascript</span> <span class="pull-right">80%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									
-									<span>HTML</span> <span class="pull-right">95%</span>
+									<span>AI</span> <span class="pull-right">95%</span>
 									<div class="progress">
 										<div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0"
 											aria-valuemax="100"></div>
 									</div>
 									
-									<span>CSS</span> <span class="pull-right">90%</span>
+									<span>ML & DL</span> <span class="pull-right">85%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									
+									<span>javascript</span> <span class="pull-right">90%</span>
 									<div class="progress">
 										<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+
+									<span>Vue.js</span> <span class="pull-right">90%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+
+									<span>React.js</span> <span class="pull-right">90%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+
+									<span>TypeScript</span> <span class="pull-right">85%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+
+									<span>Element-plus</span> <span class="pull-right">95%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0"
 											aria-valuemax="100"></div>
 									</div>
 								</div>
@@ -269,15 +295,18 @@
 								<h1 class="big">About</h1>
 								<h2 class="mb-4">About Me</h2>
 								
-								<p>Hi, I'm Shreeram Kumar Singh, currently pursuing my Master of Technology in Computer Science at IIIT Delhi. With expertise in front-end web development (HTML, CSS, JavaScript) and proficiency in programming languages like C, C++, and Python, I'm passionate about crafting captivating digital experiences. My skills extend to essential tools like Git and encompass a deep understanding of core subjects such as data structures, algorithms, and computer networks. Committed to innovation, I strive to make impactful contributions to the ever-evolving tech landscape.</p>
+								<p>I'm Shreeram Kumar Singh, an M.Tech student at IIIT Delhi specializing in front-end web development (HTML, CSS, JavaScript, React.js, Vue.js). I have experience in machine learning with SVM, Logistic Regression, and feature extraction (HOG, SIFT, LBP), and I'm proficient in C, C++, Python, Git, Jupyter Notebook, and MySQL. I'm passionate about building innovative tech solutions to solve real-world problems</p>
 								<ul class="about-info mt-4 px-md-0 px-2">
-									<li class="d-flex"><span>Programming languages:</span> <span>C,CPP,Python &amp; JavaScript</span></li>
-									<li class="d-flex"><span>Domain:</span> <span>Web development</span></li>
-									<li class="d-flex"><span>Education:</span> <span>Master of Technology</span></li>
+									<li class="d-flex"><span>Programming Languages:</span> <span>C,CPP,Python &amp; JavaScript</span></li>
+									<li class="d-flex"><span>Areas of Interest:</span> <span>AI, ML, DL, DSA, DBMS</span></li>
+									<li class="d-flex"><span>Education:</span> <span>Master of Technology(M.Tech)</span></li>
 									<li class="d-flex"><span>Language:</span> <span>English, Hindi,Maithili</span></li>
-									<li class="d-flex"><span>tools :</span> <span>Git,CSS &amp; HTML</span></li>
-							
-									<li class="d-flex"><span>Interest:</span> <span>Listening music, Playing Cricket, Teaching</span></li>
+									<li class="d-flex"><span>Tools and Technologies:</span> <span>React.js, Vue.js, NumPy, Pandas, Matplotlib, Git, GitHub, Jupyter Notebook, VS Code, Kaggle, Google
+										Colab, MySQL, Element-plus, TypeScript</span></li>
+										<li class="d-flex"><span>Technical Electives:</span><span>Graduate Algorithm, Information Retrieval, Wireless Network, Computer Network, Operating System,
+											Object Oriented Programming Design</span></li>
+									<li class="d-flex"><span>Hobbies
+										:</span> <span>Teaching | Cricket | Music | Foosball</span></li>
 									
 								</ul>
 							</div>
@@ -305,7 +334,7 @@
           <div class="col-md-10 heading-section text-center ftco-animate">
           	<h1 class="big big-2">Resume</h1>
             <h2 class="mb-4">Resume</h2>
-            <p>Aspiring Web Developer with a solid foundation in building responsive and user-friendly websites. Proficient in HTML, CSS, JavaScript, and modern web development frameworks. Passionate about creating innovative web solutions and contributing to business growth through technology.</p>
+            <p>Aspiring Full-Stack Developer with a strong foundation in computer science and hands-on experience in building scalable, responsive, and interactive web applications. Proficient in JavaScript, React.js, Vue.js, and Python, with a passion for integrating machine learning models into user-centric platforms. Proven ability to contribute to impactful projects, from medical retrieval systems to real-time chemical structure analysis. Eager to leverage technology to solve real-world problems and drive innovation.</p>
           </div>
         </div>
 
@@ -319,7 +348,7 @@
 				<div class="col-md-6">
 					<div class="resume-wrap ftco-animate">
 						<span class="date">August,23-December,23</span>
-						<h2>Teaching Assistant of Discrete Structure at IIIT Delhi </h2>
+						<h2>Teaching Assistant for Discrete Structures at IIIT Delhi, aiding in the understanding of fundamental theoretical concepts </h2>
 						</p>
 					</div>
 
@@ -328,7 +357,25 @@
 				<div class="col-md-6">
 					<div class="resume-wrap ftco-animate">
 						<span class="date">Jan,24-May,24</span>
-						<h2>Teaching Assistant of Fundamental of Database at IIIT Delhi</h2>
+						<h2>Teaching Assistant for Fundamentals of Database at IIIT Delhi, assisting students in mastering core database concepts.</h2>
+						</p>
+					</div>
+
+				</div>
+
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">Aug,24-Dec,24</span>
+						<h2>Teaching Assistant for Communication Skills at IIIT Delhi, fostering strong professional communication skills.</h2>
+						</p>
+					</div>
+
+				</div>
+
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">Jan,25-current</span>
+						<h2>SDE Intern at STMicroelectronics, contributing to software development and real-world tech solutions.</h2>
 						</p>
 					</div>
 
@@ -349,8 +396,8 @@
     				<div class="resume-wrap ftco-animate">
     					<span class="date">2023-Present</span>
     					<h2>Master of Technology</h2>
-    					<span class="position">Indraprastha Institute of Information Technology,Delhi</span>
-    					<p class="mt-4">Grade: 7.50</p>
+    					<span class="position">Indraprastha Institute of Information Technology,Delhi(IIITD)</span>
+    					<p class="mt-4">Grade: 7.30</p>
     				</div>
     			</div>
 
@@ -391,19 +438,20 @@
 				</div>
 			</div>
 			
-			<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-			<script>
-			$(document).ready(function() {
-				// Replace 'your-google-docs-link' with the actual URL of your Google Docs file
-				var googleDocsUrl = 'https://docs.google.com/document/d/1JodPDbWhckjVj9imjXwZ-r1DKHyQJdCAqK3VGL-9XiE/edit';
-				
-				// Construct the export URL to export as PDF
-				var exportUrl = googleDocsUrl.replace('/edit', '/export') + '?format=pdf';
-			
-				// Set the href attribute of the download link to the PDF export URL
-				$('#downloadLink').attr('href', exportUrl);
-			});
-			</script>
+				<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+				<script>
+				$(document).ready(function() {
+						// Extract the file ID from the Google Drive link
+						var fileId = '1paPJiAKjegUeOSoXZRAj0pTl16s_jyk0';
+						
+						// Construct the direct download link
+						var exportUrl = 'https://drive.google.com/uc?export=download&id=' + fileId;
+
+						// Set the href attribute of the download link
+						$('#downloadLink').attr('href', exportUrl);
+					});
+
+				</script>
 			
     		</div>
     	</div>
@@ -417,10 +465,12 @@
           <div class="col-md-7 heading-section text-center ftco-animate">
             <h1 class="big big-2">Projects</h1>
             <h2 class="mb-4">Projects</h2>
-            <p>Below are the sample Web Developement projects on Html,Css,&Javascript and Information Retrieval on Python & ML</p>
+            <p>Below are some of the innovative projects I've worked on, showcasing my skills in creating dynamic web experiences and leveraging advanced techniques in information retrieval and machine learning.</p>
           </div>
         </div>
+
         <div class="row d-flex">
+
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry justify-content-end">
               <a href="https://github.com/Shreeram23091/Myntra-clone" class="block-20 zoom-effect" style="background-image: url('images/proj_1.png');">
@@ -432,6 +482,7 @@
               </div>
             </div>
           </div>
+
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry justify-content-end">
               <a href="https://github.com/Nitesh-kr30/Medical-Information-Retrival-System" class="block-20 zoom-effect" style="background-image: url('images/proj_2.png');">
@@ -443,6 +494,7 @@
               </div>
             </div>
           </div>
+
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry">
               <a href="https://github.com/Shreeram23091/Library-Management-Syatem" class="block-20 zoom-effect" style="background-image: url('images/proj_3.png');">
@@ -454,29 +506,30 @@
               </div>
             </div>
           </div>
+		  
         </div>
 	<br>
 		<!-- added justify-content-center to center align the last two projects -->
 		<div class="row d-flex justify-content-center">  
 			<div class="col-md-4 d-flex ftco-animate">
 				<div class="blog-entry justify-content-end">
-				<a href="#" class="block-20 zoom-effect" style="background-image: url('images/proj_4.jpg');">
+				<a href="https://github.com/Shreeram23091/Computational-Gastronomy-Database-and-Webservers-Development" class="block-20 zoom-effect" style="background-image: url('images/proj_4.png');">
 				</a>
 				<div class="text mt-3 float-right d-block">
   
-				  <h3 class="heading"><a href="#">Student Leave Management System</a></h3>
-				  <p>Ongoing.</p>
+				  <h3 class="heading"><a href="https://github.com/Shreeram23091/Computational-Gastronomy-Database-and-Webservers-Development">Frontend Developer for UMAMI Web Platform</a></h3>
+				  <p>Developed a responsive web application that interfaces with a machine learning model (85% accuracy) to predict the UMAMI properties of chemical compounds. Implemented an intuitive UI using React.js, allowing users to input chemical structures in SMILES format and perform advanced searches for specific compounds. Streamlined user interaction and ensured seamless integration with backend prediction services.</p>
 				</div>
 			  </div>
 			</div>
 			<div class="col-md-4 d-flex ftco-animate">
 				<div class="blog-entry justify-content-end">
-				<a href="#" class="block-20 zoom-effect" style="background-image: url('images/proj_5.jpg');">
+				<a href="https://github.com/Shreeram23091/Human-Activity-Recognition" class="block-20 zoom-effect" style="background-image: url('images/proj_5.jpeg');">
 				</a>
 				<div class="text mt-3 float-right d-block">
   
-				  <h3 class="heading"><a href="#">Customer Segmentation using clustering model</a></h3>
-				  <p>Ongoing.</p>
+				  <h3 class="heading"><a href="https://github.com/Shreeram23091/Human-Activity-Recognition">Human Activity Recognition (HAR) using Kernalized SVM</a></h3>
+				  <p>Built a machine learning model to classify images into 15 distinct human activity categories such as cycling, running, and clapping. Employed feature extraction techniques including HOG (Histogram of Oriented Gradients), SIFT (Scale-Invariant Feature Transform), and LBP (Local Binary Patterns). Evaluated multiple SVM kernels to optimize classification accuracy and robustness across diverse visual patterns.</p>
 				</div>
 			  </div>
 			</div>
@@ -491,7 +544,7 @@
 				<div class="row justify-content-center">
 					<div class="col-md-7 ftco-animate text-center">
 						<h2>More projects on<span> Github  </span> </h2>
-						<div class="heading"> <h4> I love to solve prolblem like wed development  &amp; information retrieval </h4>
+						<div class="heading"> <h4> I’m passionate about tackling complex challenges and creating innovative solutions through technology, with a strong focus on building impactful applications and advancing data-driven insights </h4>
 						<br>
 						<p><a href="https://github.com/Shreeram23091" class="btn btn-primary py-3 px-5">GitHub</a></p>
 						</div>
@@ -520,7 +573,7 @@
           			<span class="icon-map-signs"></span>
           		</div>
           		<h3 class="mb-4">Address</h3>
-	            <p>Delhi, India</p>
+	            <p>Darbhanga, Bihar, India, 847201</p>
 	          </div>
           </div>
           <div class="col-md-6 col-lg-3 d-flex ftco-animate">
@@ -529,7 +582,7 @@
           			<span class="icon-phone2"></span>
           		</div>
           		<h3 class="mb-4">Contact Number</h3>
-	            <p><a href="#">07564-110020</a></p>
+	            <p>+919693083849</p>
 	          </div>
           </div>
           <div class="col-md-6 col-lg-3 d-flex ftco-animate">
@@ -538,7 +591,7 @@
           			<span class="icon-paper-plane"></span>
           		</div>
           		<h3 class="mb-4">Email Address</h3>
-	            <p><a href="mailto:info@yoursite.com">shreeram23091@iiitd.ac.in</a></p>
+	            <p><a href="mailto:info@yoursite.com">shreeramsingh1st@gamil.com</a></p>
 	          </div>
           </div>
           <div class="col-md-6 col-lg-3 d-flex ftco-animate">
@@ -547,7 +600,8 @@
           			<span class="icon-globe"></span>
           		</div>
           		<h3 class="mb-4">Download Resume</h3>
-	            <p><a href="#">resumelink</a></p>
+	            <p>resumelink</p>
+				
 	          </div>
 			</div>
 
@@ -556,17 +610,17 @@
 			<br>
 			<div class="row justify-content-center">
 				<div class="col-md-7 ftco-animate text-center">
-					<h2>Have a<span> Question?  </span> <a href="#" class="btn btn-primary py-3 px-5">Click Here</a> </h2>
+					<h2>Have a<span> Question?  </span> <a href="https://www.linkedin.com/in/shreeramsingh/" class="btn btn-primary py-3 px-5">Click Here</a> </h2>
 				</div>
 			</div>
 				<br>
 					<ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
 					  <li class="ftco-animate normal-txt">Find me on  </li>
-					  <li class="ftco-animate"><a href="#"><span class="icon-youtube"></span></a></li>
+					  <li class="ftco-animate"><a href="https://www.youtube.com/@shreeram_singh1466"><span class="icon-youtube"></span></a></li>
 					  <li class="ftco-animate"><a href="https://www.linkedin.com/in/shreeram-singh-999213246/"><span class="icon-linkedin"></span></a></li>  
-					  <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-					  <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-				      <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+					  <li class="ftco-animate"><a href="https://t.me/+XnPeCwgWSYFjMTNl"><span class="icon-telegram"></span></a></li>
+					  <!-- <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li> -->
+				      <li class="ftco-animate"><a href="https://www.instagram.com/shreeram0698/?hl=en"><span class="icon-instagram"></span></a></li>
 					</ul>
 				<br>
 		   </div>
