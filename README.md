@@ -31,7 +31,7 @@ Applied feature extraction techniques like HOG, SIFT, and LBP, and tested multip
 - Teaching Assistant for communication skills (Aug 2024 - Dec 2024)
 
 ### Contact:
-- **Address**: Delhi, India
+- **Address**: Darbhanga, Bihar, India, 847201
 - **Email**: shreeram23091@iiitd.ac.in
 - **Portfolio link** : https://shreeram23091.github.io/shreeram-s-portfolio/
 
