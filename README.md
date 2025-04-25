@@ -5,8 +5,8 @@ Welcome to the portfolio of Shreeram Kumar Singh, an aspiring web developer curr
 - **HTML**: 95%
 - **CSS**: 90%
 - **JavaScript**: 80%
-- **C++**: 95%
-- **Python**: 75%
+- **C++**: 98%
+- **Python**: 95%
 
 ### Education:
 - **M.Tech in Computer Science** (IIIT Delhi, 2023-Present)
@@ -16,13 +16,19 @@ Welcome to the portfolio of Shreeram Kumar Singh, an aspiring web developer curr
 1. **Myntra Clone**: Replicated the functionality and design of the Myntra website using HTML, CSS, and JavaScript.
 2. **Medical Information Retrieval System**: Utilized machine learning and IR techniques to detect diseases and provide treatment recommendations.
 3. **Library Management System**: Created a C++ system for managing book locations and check-in/out history.
+4. **Frontend Developer for UMAMI Web Platform**:  Developed a web platform that utilizes an already deployed ML model with 85% accuracy to predict UMAMI properties of
+ chemical compounds.
+5. **Human Activity Recognition (HAR) using Kernelized SVM**: Developed a model for classifying images into 15 activity categories (e.g., cycling, running, clapping).
+    • Applied feature extraction techniques like HOG, SIFT, and LBP, and tested multiple SVM kernels.
 
 ### Positions of Responsibility:
 - Teaching Assistant for Discrete Structures (Aug 2023 - Dec 2023)
 - Teaching Assistant for Fundamentals of Databases (Jan 2024 - May 2024)
+- Teaching Assistant for communication skills (Aug 2024 - Dec 2024)
 
 ### Contact:
 - **Address**: Delhi, India
 - **Email**: shreeram23091@iiitd.ac.in
+- **Portfolio link** : https://shreeram23091.github.io/shreeram-s-portfolio/
 
 Feel free to reach out for collaboration or inquiries. Thank you for visiting!
