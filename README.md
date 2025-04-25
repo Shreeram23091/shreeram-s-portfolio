@@ -2,14 +2,14 @@
 Welcome to the portfolio of Shreeram Kumar Singh, an aspiring web developer currently pursuing a Master of Technology in Computer Science at IIIT Delhi. With a strong foundation in front-end web development, Shreeram is proficient in HTML, CSS, and JavaScript, and skilled in programming languages like C, C++, and Python.
 
 ### Skills:
-- **CPP**: 98%
--**PYTHON**: 90%
--**AI**: 95%
--**ML & DL**: 85%
--**javascript**: 90%
--**Vue.js**: 90%
--**React.js**: 90%
--**TypeScript**: 85%
+- **CPP**: 98%,
+-**PYTHON**: 90%,
+-**AI**: 95%,
+-**ML & DL**: 85%,
+-**javascript**: 90%,
+-**Vue.js**: 90%,
+-**React.js**: 90%,
+-**TypeScript**: 85%,
 -**Element-plus**: 95%
 
 
