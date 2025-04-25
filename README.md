@@ -2,11 +2,16 @@
 Welcome to the portfolio of Shreeram Kumar Singh, an aspiring web developer currently pursuing a Master of Technology in Computer Science at IIIT Delhi. With a strong foundation in front-end web development, Shreeram is proficient in HTML, CSS, and JavaScript, and skilled in programming languages like C, C++, and Python.
 
 ### Skills:
-- **HTML**: 95%
-- **CSS**: 90%
-- **JavaScript**: 80%
-- **C++**: 98%
-- **Python**: 95%
+- **CPP**: 98%
+-**PYTHON**: 90%
+-**AI**: 95%
+-**ML & DL**: 85%
+-**javascript**: 90%
+-**Vue.js**: 90%
+-**React.js**: 90%
+-**TypeScript**: 85%
+-**Element-plus**: 95%
+
 
 ### Education:
 - **M.Tech in Computer Science** (IIIT Delhi, 2023-Present)
@@ -18,8 +23,8 @@ Welcome to the portfolio of Shreeram Kumar Singh, an aspiring web developer curr
 3. **Library Management System**: Created a C++ system for managing book locations and check-in/out history.
 4. **Frontend Developer for UMAMI Web Platform**:  Developed a web platform that utilizes an already deployed ML model with 85% accuracy to predict UMAMI properties of
  chemical compounds.
-5. **Human Activity Recognition (HAR) using Kernelized SVM**: Developed a model for classifying images into 15 activity categories (e.g., cycling, running, clapping).
-    • Applied feature extraction techniques like HOG, SIFT, and LBP, and tested multiple SVM kernels.
+5. **Human Activity Recognition (HAR) using Kernelized SVM**: Developed a model for classifying images into 15 activity categories (e.g., cycling, running, clapping),
+Applied feature extraction techniques like HOG, SIFT, and LBP, and tested multiple SVM kernels.
 
 ### Positions of Responsibility:
 - Teaching Assistant for Discrete Structures (Aug 2023 - Dec 2023)
