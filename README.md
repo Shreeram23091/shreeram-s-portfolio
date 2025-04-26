@@ -1,5 +1,5 @@
 ---
-Welcome to the portfolio of Shreeram Kumar Singh, a skilled developer and machine learning enthusiast pursuing M.Tech in Computer Science at IIIT Delhi. With strong expertise in web technologies like HTML, CSS, JavaScript, React.js, and Vue.js, along with hands-on experience in ML models using SVM, Logistic Regression, and feature extraction, he builds intelligent and scalable solutions.use chatboat to know about shreeram.
+Welcome to the portfolio of Shreeram Kumar Singh, a skilled developer and machine learning enthusiast pursuing M.Tech in Computer Science at IIIT Delhi. With strong expertise in web technologies like HTML, CSS, JavaScript, React.js, and Vue.js, along with hands-on experience in ML models using SVM, Logistic Regression, and feature extraction, he builds intelligent and scalable solutions.use chatboat to know about me.
 
 ### Skills:
 - **CPP**: 98%
